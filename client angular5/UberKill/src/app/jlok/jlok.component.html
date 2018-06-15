@@ -1,0 +1,51 @@
+<div id="maxthousand">
+    <ngb-carousel style="height:300px" class="carousel">
+        <ng-template ngbSlide>
+          <div id="slide1">
+            <div>
+            <h3 class="h3"> Housing</h3>
+            <p>Link to our Housing Information</p>
+          </div>
+          <a routerLink="/Slide4">Click on me to Change</a>
+          </div>
+      
+      
+        </ng-template>
+        <ng-template ngbSlide >
+          <div id="slide2" data-interval="1000">
+            <div>
+              <h3 class="h32">Jobs</h3>
+              <p>Link to our Jobs Page!! </p>
+            </div>
+            <a routerLink="/Slide3">Click on me to Change</a>
+            
+      
+           
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div id="slide3">
+            <div>
+              <h3 class="h33">Free Stuff!!!</h3>
+              <p>Link to our Free Stuff!! </p>
+            </div>
+            <a routerLink="/Slide5">Click on me to Change</a>
+           
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div id="box1">
+        <form id="jTheLochnessMonster" (ngSubmit)="submit()">
+          <input type="file" id="joseDataServer" name="joseDataServer" (change)="onSelect($event)">
+             
+          <button>submit</button>
+          </form>
+      </div>
+   
+</div>
+<form id="jTheLochnessMonster" (ngSubmit)="submit()">
+ <input type="file" id="joseDataServer" name="joseDataServer" (change)="onSelect($event)">
+    
+ <button>submit</button>
+ </form>
+ <img src="https://www.dropbox.com/s/llh4rom9bhvh4x6/backgrounLogoShelters.png?dl=1">

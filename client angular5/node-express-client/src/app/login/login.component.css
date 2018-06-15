@@ -1,0 +1,24 @@
+.container-fluid{
+    padding: 50px 75px 50px 75px;
+}
+
+.row{
+    padding-bottom: 50px;
+}
+h1{
+    border-bottom:  solid thin #ccc;
+    font-size: 36px;
+}
+
+h3{
+    font-size: 16px;
+    
+}
+
+.blue{
+    color: #3D9EF1;
+}
+
+p{
+    padding: 15px 25px;
+}

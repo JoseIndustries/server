@@ -1,0 +1,49 @@
+#freeStuff1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+#image102 {
+    height: 100px;
+    width: 150px;
+}
+.lineContainer {
+    position:relative;
+  }
+  .line {
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+    width: 21px;
+    Height: 8px;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  .lineRightEnd {
+    border-right: 0;
+  }
+  .numberContainer {
+    position: absolute;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  .number {
+    width: 22px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .numberLeftEnd {
+    width: 10px;
+    Height: 5px;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+#imageRateSpotter {
+    height: 7px;
+    width: 7px;
+}

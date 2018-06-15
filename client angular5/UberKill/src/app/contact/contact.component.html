@@ -1,0 +1,54 @@
+<div id="headerColor">
+  <div class="overlay">
+    <h1> Contact Us</h1>
+  </div>
+
+</div>
+<div id="colorChangeContactUs">
+  <div id="contactBox">
+    <h2>Welcome to Latina Luck!</h2>
+    <div id="box008">
+      <form id="customerComplaint1" #customerComplaint1="ngForm" (ngSubmit)="login()" form onsubmit="return confirm('Do you really want to submit the form?');">
+        First name:
+        <br>
+        <input class="BorderRadius" id="colorText52" type="text" name="firstName" [(ngModel)]="contact.firstName" required>
+        <br> Last name:
+        <br>
+        <input class="BorderRadius" id="colorText52" type="text" name="lastName" [(ngModel)]="contact.lastName" required>
+
+        <h2>Are you having any issues today!?</h2>
+        <input type="radio" class="BorderRadius" id="loginTrouble" name="NewUser" value="1" (click)="isChecked()" [(ngModel)]="contact.radio" required>Want to add resources?
+        <br>
+        <input type="radio" class="BorderRadius" id="technicalTrouble" name="NewUser" value="2" (click)="isChecked2()" [(ngModel)]="contact.radio" required>Having technical trouble?
+        <br>
+        <input type="radio" class="BorderRadius" id="blockingAndReporting" name="NewUser" value="3" (click)="isChecked3()" [(ngModel)]="contact.radio"
+          required>Blocking and reporting user (s) ?
+        <br>
+        <input type="radio" class="BorderRadius" id="canWeImprove" name="NewUser" value="4" (click)="isChecked4()" [(ngModel)]="contact.radio" required>Have any ideas of how we can improve?
+        <br>
+
+        <h2>Please briefly describe.</h2>
+        <textarea id="textArea51" class="BorderRadius" name="paragraph_text" cols="50" rows="10" [(ngModel)]="contact.paragraph_text" required></textarea>
+        <h2>Enter Email </h2>
+        <input class="BorderRadius" id="displayEmail5" type="text" name="displayEmail5" [(ngModel)]="contact.displayEmail5" ngModel required>
+        <br>
+
+        <button id="rateButton" class="BorderRadius" [disabled]="!customerComplaint1.valid">Submit</button>
+
+
+      </form>
+
+      <ng-template [ngIf]="condition12">
+        <div></div>
+      </ng-template>
+      <ng-template #thenBlock></ng-template>
+      <ng-template #elseBlock></ng-template>
+
+
+
+
+
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+#maxthousand {
+    background-color: black;
+}#box1 {
+    background-color: brown;
+    background-size: 1200px 300px;
+    background-image: url(../../assets/auroraCastillo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: dotted;
+    height: 300px;
+    width: 100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.left {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.right {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel{
+    color: black;
+}
+
+
+#slide1{
+    background-image: url('../../assets/backgrounLogoShelters.png');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: brown;
+    background-size: 100% 300px;
+    text-align: center;
+}
+#slide2{
+    background-image: url('../../assets/careerslogo.jpg');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: brown;
+    text-align: center;
+}
+#slide3{
+    background-image: url('../../assets/picture12.png');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: brown;
+    background-size: 300px 190px; 
+    text-align: center;
+}
+.h3 {
+    font-family: "Times New Roman", Times, sans-serif;
+}
+.h32 {
+    font-family: "Times New Roman", Times, sans-serif;
+}
+.h33 {
+    font-family: "Times New Roman", Times, sans-serif;
+}
+p {
+    font-style: italic;
+}
+a {
+    font-family: "Times New Roman", Times, serif;
+}

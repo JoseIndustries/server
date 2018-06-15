@@ -1,0 +1,8 @@
+#Box101 {
+    height: 300px;
+    background-color: brown;
+    background-image: url(../../assets/picture12.png);
+    background-position-x: 450px;
+    background-repeat: no-repeat;
+    background-size: 300px 450px;
+}

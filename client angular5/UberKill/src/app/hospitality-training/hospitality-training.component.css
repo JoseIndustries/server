@@ -1,0 +1,63 @@
+#agencies14 {
+    min-height: 100vh;
+    width: 100%;
+
+}
+.padding2{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+}
+.superHeader {
+    padding: 5px;
+}
+
+p {
+    font-style: italic;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.wrapper{
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,.6);
+}
+.img-container{
+    height: 200px;
+    width:100%;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.padding{
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.content {
+    color:black;
+    line-height: 95%;
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+a:hover {
+    text-decoration: none;
+}

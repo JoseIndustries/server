@@ -1,0 +1,55 @@
+<div id="Jobs1">
+    <div id="freeStuff1">
+        <div class="freestuff2">
+            <h3>
+                Free Food
+            </h3>
+            <p>
+                Adress: 444 avenue way
+                <br>Date and Time: Saturday 10am-3pm
+                <br> Sunday 10am-4pm
+                <br>Contact: 444-444-4444
+            </p>
+
+        </div>
+
+        <div id="box15">
+            <h3>Rate Your Visit</h3>
+            <form id="submitRate" (ngSubmit)="onClickMe()" #rateForm="ngForm">
+
+                <input type="radio" id="Awful" name="Rater" value="1" (click)="isChecked()"  [(ngModel)]="radio"  required>My visit was awful
+                <br/>
+                <input type="radio" id="Bad" name="Rater" value="2" (click)="isChecked2()"  [(ngModel)]="radio"  required>My visit was bad
+                <br/>
+                <input type="radio" id="Good" name="Rater" value="3" (click)="isChecked3()" [(ngModel)]="radio"  required>My visit was good
+                <br/>
+                <input type="radio" id="Excellent" name="Rater" value="4" (click)="isChecked4()"  [(ngModel)]="radio"  required>My visit was excellent
+                <br/>
+                <button id="rateButton" [disabled]="!rateForm.valid">Submit</button>
+                {{this.division}}
+<img id="imageRateSpotter" src="../../assets/imageholder.jpg">
+            </form>
+            <div class="lineContainer">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line lineRightEnd"></div>
+                    <div class="numberContainer">
+                        <div class="numberLeftEnd"></div>
+                        <div class="number" value="0">0</div>
+                        <div class="number" value="1">1</div>
+                        <div class="number" value="2">2</div>
+                        <div class="number" value="3">3</div>
+                        <div class="number" value="4">4</div>
+                    </div>
+                </div>
+            <ng-template [ngIf]="condition12">
+                <div></div>
+            </ng-template>
+            <ng-template #thenBlock></ng-template>
+            <ng-template #elseBlock></ng-template>
+        </div>
+        <img id="image102" src="../../assets/imageholder.jpg">
+    </div>

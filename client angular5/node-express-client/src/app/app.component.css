@@ -1,0 +1,30 @@
+#logo{
+    height: 70px;
+}
+
+.navbar{
+    height: 75px;
+    overflow: hidden;
+    background-color: #242424;
+}
+
+.blue{
+    color: #3D9EF1;
+}
+
+.blue-hover:hover{
+    color: #3D9EF1;
+}
+
+a{
+    color: white;
+
+}
+
+.transition{
+    transition: all 100ms ease-in;
+}
+.navbar-brand{
+    font-size: 24px;
+    padding-left: 35px;
+}
